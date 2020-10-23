@@ -5,15 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class LoadNewScene : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void buttonLoadScene(string scene_name)
     {
-        
-    }
+        SceneManager.LoadScene(scene_name);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

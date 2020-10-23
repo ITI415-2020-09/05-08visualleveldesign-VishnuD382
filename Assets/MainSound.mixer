@@ -43,7 +43,7 @@ AudioMixerController:
     - 7599006cf09bb484b8c9b441eceecbea
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 24500006}
+  m_TargetSnapshot: {fileID: 6950367937946033553}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -88,7 +88,9 @@ AudioMixerSnapshotController:
   m_Name: AlwaysOffice
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 3ba63dec13f7d944e94b41cfca4e6f4c
-  m_FloatValues: {}
+  m_FloatValues:
+    f2c0cfb641a746f4f8710969cabb1319: -42.441025
+    7fee790994af7ac479228fab31657713: -0.8840523
   m_TransitionOverrides: {}
 --- !u!244 &611208791761295987
 AudioMixerEffectController:
