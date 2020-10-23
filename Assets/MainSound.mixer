@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!243 &-729625634092180727
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewOffice
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 7599006cf09bb484b8c9b441eceecbea
+  m_Children: []
+  m_Volume: f2c0cfb641a746f4f8710969cabb1319
+  m_Pitch: 72a4550d80718a2409cf3b505a601e0e
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 6646724764052766766}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainSound
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  - {fileID: 6950367937946033553}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 5d1923c1e6f76ff47a9d7f42be8330bd
+    - dfe277773342c1344b62aad686f95bd3
+    - 7599006cf09bb484b8c9b441eceecbea
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 5d1923c1e6f76ff47a9d7f42be8330bd
+  m_Children:
+  - {fileID: -729625634092180727}
+  - {fileID: 7764512072435889037}
+  m_Volume: 1b43d5ef53ffae54089068987862a3e1
+  m_Pitch: 324961784c7105c4e8d2461b21b5eaac
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 39bd3a08f9315894b82842dd75edb05b
+  m_EffectName: Attenuation
+  m_MixLevel: dba416e3c444e4c48a81f669fdea54a4
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AlwaysOffice
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 3ba63dec13f7d944e94b41cfca4e6f4c
+  m_FloatValues: {}
+  m_TransitionOverrides: {}
+--- !u!244 &611208791761295987
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 0d61e03034b5a42429518da5a9bf6ea1
+  m_EffectName: Attenuation
+  m_MixLevel: ba8ef91aaa1271c4a85d83d1da4c1769
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &6646724764052766766
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 1ff6650c0e93470488555f9da6d35b7d
+  m_EffectName: Attenuation
+  m_MixLevel: a5e857385d56db948b52e3d6c38028c1
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &6950367937946033553
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewOffice
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: b2b622659a197ac468a55f9dd7303d1c
+  m_FloatValues:
+    7fee790994af7ac479228fab31657713: -50.103996
+  m_TransitionOverrides: {}
+--- !u!243 &7764512072435889037
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AlwaysOffice
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: dfe277773342c1344b62aad686f95bd3
+  m_Children: []
+  m_Volume: 7fee790994af7ac479228fab31657713
+  m_Pitch: f1eeda70462b09e4a86246db8f158492
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 611208791761295987}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
